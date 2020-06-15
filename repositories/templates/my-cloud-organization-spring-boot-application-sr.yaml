@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: my-cloud-organization
+    provider: github
+    repository: spring-boot-application
+  name: my-cloud-organization-spring-boot-application
+spec:
+  description: Imported application for my-cloud-organization/spring-boot-application
+  httpCloneURL: https://github.com/my-cloud-organization/spring-boot-application.git
+  org: my-cloud-organization
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: spring-boot-application
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/my-cloud-organization/spring-boot-application.git

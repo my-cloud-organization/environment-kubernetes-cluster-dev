@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: my-cloud-organization
+  repo: spring-boot-application
+  url: https://github.com/my-cloud-organization/spring-boot-application.git
+  version: ""
+  versionURL: ""
