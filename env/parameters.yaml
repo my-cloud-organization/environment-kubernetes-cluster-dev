@@ -1,0 +1,10 @@
+adminUser:
+  password: local:kubernetes-cluster/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: ioannis.gkourtzounis@comquent.gr
+  token: local:kubernetes-cluster/pipelineUser:token
+  username: jx-cloud-bot
+prow:
+  hmacToken: local:kubernetes-cluster/prow:hmacToken
